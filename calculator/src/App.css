@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.App{
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 500px;
+  height: 90vh;
+  text-align: center;
+  margin: 10px 500px;
+  padding: 0px;
+  background:black
+}
+
+.App input{
+   width: 400px;
+   font-size: 45px;
+   border-radius: 5px;
+   border: 1px solidblack;
+   padding: 6px;
+   margin: 50px 5px 20px 0px;
+   background-color:azure ;
+}
+
+.btns{
+  padding: 0px;
+  margin: 85px 0px 0px 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 0px;
+  
+
+}
+
+.App button{
+  background-color:blueviolet;
+  margin: 10px 5px ;
+  font-size: 40px;
+  border-radius: 5px;
+  color: aliceblue;
+  border: none;
+  padding: 6px;
+
+}
+
